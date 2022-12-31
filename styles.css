@@ -3,6 +3,8 @@ body {
 	background: #000;
 	margin: 0;
     width: 100vw;
+    overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 * {
@@ -34,7 +36,7 @@ img {
 .rainbow {
     text-align: center;
     text-decoration: underline;
-    font-size: clamp(20px, 10vw, 200px);
+    font-size: 6vw;
     font-family: monospace;
     letter-spacing: 5px;
 }
