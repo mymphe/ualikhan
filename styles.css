@@ -34,7 +34,7 @@ img {
 .rainbow {
     text-align: center;
     text-decoration: underline;
-    font-size: clamp(20px, 10vw, 70px);
+    font-size: clamp(20px, 10vw, 200px);
     font-family: monospace;
     letter-spacing: 5px;
 }
