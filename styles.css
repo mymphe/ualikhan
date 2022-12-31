@@ -2,6 +2,11 @@
 body {
 	background: #000;
 	margin: 0;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 canvas {
@@ -25,13 +30,13 @@ canvas {
 }
 
 img {
-    width: 300px;
+    width: 40vw;
 }
 
 .rainbow {
     text-align: center;
     text-decoration: underline;
-    font-size: 32px;
+    font-size: 10vw;
     font-family: monospace;
     letter-spacing: 5px;
 }
@@ -43,7 +48,6 @@ img {
     color: transparent;
     animation: rainbow_animation 1s ease-in-out infinite;
     background-size: 400% 100%;
-    font-size: 5rem;
     margin: 0 0 10px 0;
 }
 
